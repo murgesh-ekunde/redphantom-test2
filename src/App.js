@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
+import Caraousal from './components/caraousal/Caraousal';
+import BlueBg from './components/blueBg/BlueBg';
+import Strategy from './components/strategicEngineering/Strategy';
+import Darkbg from './components/darkBgPost/Darkbg';
+import Solution from './components/solution/Solution';
+import Newsblogs from './components/blogs/Newsblogs';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Header />
+      <main>
+        <Caraousal />
+        <BlueBg/>
+        <Strategy/>
+        <Darkbg/>
+        <Solution/>
+        <Newsblogs/>
+      </main>
+     <Footer />
     </div>
   );
 }

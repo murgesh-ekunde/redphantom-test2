@@ -1,0 +1,32 @@
+.blueBG__Background{
+    background-color: rgb(88, 173, 230);
+    color: white;
+    background-image: url('../../assets/think.png'), url('../../assets/w.png');
+    background-position: 0 100%, 100% 30% ;
+    background-repeat: no-repeat;
+    background-size: 50%, 50%;
+}
+
+
+.blueBG__flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.blueBg__leftimg img{
+    height: 40rem;
+}
+
+.blueBg__header{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    width: 35rem;
+    text-align: right;
+    font-size: small;
+    font-weight: normal;
+}
+
+.blueBg__para{
+    text-align:justify;
+}

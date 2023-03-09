@@ -1,0 +1,35 @@
+.news__bg{
+    height: 95vh;
+    background-color:  rgb(88, 173, 230);
+    background-image: url('../../assets/e.png'), url('../../assets/think.png');
+    background-position: 90% 25%, 0 100%  ;
+    background-repeat: no-repeat;
+    background-size: 13%,50%;
+}
+
+.news__bg h1{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.data__card {
+    text-align: justify;
+}
+
+.data__card b{
+    text-align: right;
+    color: rgb(88, 173, 230);
+}
+
+.subscribe{
+    margin-top: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe Button{
+    height: 2.5rem;
+}

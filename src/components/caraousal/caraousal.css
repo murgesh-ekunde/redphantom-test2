@@ -1,0 +1,11 @@
+.caraosal__bg{
+    height: 90vh;
+    background-image: url('../../assets/r.png'), url('../../assets/sec1.jpg');
+    background-position: 5% 80%, 0 100%  ;
+    background-repeat: no-repeat;
+    background-size: 15%, 100%;
+}
+
+.caraosal__bgt h1{
+    color: rgb(88, 173, 230);
+}

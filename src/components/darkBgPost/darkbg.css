@@ -1,0 +1,38 @@
+.darkBg__main{
+    height: 80vh;
+    background-color: rgb(22, 22, 22);
+    background-image: url('../../assets/ee.png'), url('../../assets/think.png');
+    background-position: 90% 25%, 0 100%  ;
+    background-repeat: no-repeat;
+    background-size: 13%,50%;
+}
+
+.text__top{
+   text-align: center;
+   padding-top: 2rem;
+}
+
+.text__top h1{
+    color: rgb(88, 173, 230); ;
+}
+
+.text__top p{
+    color: white;
+}
+
+.gutter-row{
+    background: white;
+}
+
+.content__box{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0 0 auto;
+    gap: 5rem;
+}
+
+.content{
+    background: white;
+    width: 70rem;
+    text-align: center;
+}

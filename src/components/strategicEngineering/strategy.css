@@ -1,0 +1,49 @@
+.bg__e{
+    background-image: url('../../assets/e.png');
+    background-position: 0 0% ;
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+.bg__image{
+    height: 90vh;
+}
+
+.bg__image img{
+    height: 40rem;
+    margin-left: -12rem;
+}
+
+.strategy__text{
+    color:rgb(88, 173, 230); 
+    text-align: center;
+    position: relative;
+    top: -95%; 
+}
+
+.gutter-row{
+    color:black
+}
+
+.text__right{
+    margin-top: 5rem;
+    margin-left: 50%;
+    text-align: center;
+}
+
+.text__right p{
+    color: black;
+}
+
+.text__right h3{
+    text-align: center;
+    padding-top: 2px;
+    color: white;
+    background: rgb(88, 173, 230);
+    height:2rem;
+    width: 16rem;
+}
+
+.text__box{
+    display: flex;
+    justify-content: space-between;
+}
