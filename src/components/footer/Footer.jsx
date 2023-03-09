@@ -2,7 +2,7 @@ import React from 'react'
 import { Col, Row } from 'antd';
 import { Container } from '@mui/material';
 import './footer.css'
-
+import logo from '../../assets/logo.png'
 
 function Footer() {
   return (
@@ -10,7 +10,7 @@ function Footer() {
         <Container>
             {/* Footer created using ant dsign grid system */}
     <Row>
-        <Col span={6}>
+        <Col className='row' span={6}>
            <h3 className='footer_title'>Company</h3>
            <a>About Us</a><br/>
            <a>Services</a><br/>
@@ -18,14 +18,14 @@ function Footer() {
            <a>Latest News</a>
         </Col>
 
-        <Col span={6}>
+        <Col className='row' span={6}>
         <h3 className='footer_title'>Services</h3>
            <a>Social Responsibility</a><br/>
            <a>Privacy Policy</a><br/>
            <a>Terms & Conditions</a><br/>
            <a>Contact us</a>           
         </Col>
-        <Col span={6}>
+        <Col className='row' span={6}>
             <h3 className='footer_title'> Adress </h3>
             <p>Savarkar Nagar, Pdharpur<br>
             </br>
@@ -33,8 +33,9 @@ function Footer() {
             Phone: +919172912322
             </p>
         </Col >
-        <Col span={6}>
-           <h2> RP Tech Novelty</h2>
+        <Col className='row' span={6}>
+           <img src={logo}/><br></br>
+           <h4> Follow us on</h4>
         </Col>
     </Row>
 

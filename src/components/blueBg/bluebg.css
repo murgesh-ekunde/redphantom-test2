@@ -30,3 +30,9 @@
 .blueBg__para{
     text-align:justify;
 }
+
+@media screen  and (max-width:760px) {
+    .blueBg__leftimg img{
+        display: none;
+    }
+}

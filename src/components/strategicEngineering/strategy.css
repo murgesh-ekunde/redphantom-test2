@@ -48,3 +48,27 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media screen  and (max-width:1020px) {
+    .bg__image img{
+        display: none;
+    }
+    .text__right{
+        margin-top: 5rem;
+        margin-left: 0;
+        text-align: center;
+    }
+    .bg__image{
+        height: 50rem;
+        position: relative;
+    }
+    .text__box{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+    .strategy__text p{
+        display: none;
+    }   
+}

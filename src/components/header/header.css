@@ -16,9 +16,9 @@ nav a {
     text-decoration: none;
 }
 
-.left a{
-   font-size: large;
-   font-weight: 500; 
+.left img{
+    height:2rem;
+     width:6rem
 }
 
 .right a {
@@ -28,3 +28,7 @@ nav a {
 .right a:hover{
     color:rgb(119, 159, 160)
  }
+
+ @media screen  and (max-width:1020px) {
+   
+}

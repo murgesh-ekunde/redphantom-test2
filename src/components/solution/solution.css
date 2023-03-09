@@ -64,3 +64,44 @@
     width: 20rem;
     margin-left: 5rem;
 }
+
+@media screen  and (max-width:720px) {
+    .solution__img img{
+       display: none;
+    }
+    .left__box{
+        height: 8rem;
+        width: 10rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0 2rem 0 2rem;
+        background-color: rgb(88, 173, 230);
+        color: white;
+        margin: 0 1rem 1rem 0;
+    }
+    
+    .right__box{
+        height: 8rem;
+        width: 10rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2rem 0 2rem 0;
+        background-color: rgb(88, 173, 230);
+        color: white;
+        margin: 0 1rem 1rem 0;
+    }
+    .solution__header{
+        padding-top: 2rem;
+        width: 22rem;
+        font-weight: lighter;
+        font-size: smaller;
+    }
+    .solution__bg{
+        background-image: none;
+    }
+    
+}

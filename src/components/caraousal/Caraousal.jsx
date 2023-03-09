@@ -5,7 +5,7 @@ import { Carousel } from 'antd';
 
 const contentStyle = {
     margin: 0,
-    height: '60vh',
+    height: '28rem',
     width:'50rem',
     color: '#fff',
     display:'flex',

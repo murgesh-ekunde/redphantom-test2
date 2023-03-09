@@ -1,7 +1,7 @@
 import { Container } from '@mui/material';
 import React from 'react'
 import "./header.css";
-
+import logo from '../../assets/logo.png'
 function Header() {
 
   return (
@@ -9,7 +9,7 @@ function Header() {
         <Container>
         <nav className='nav'>
             <div className='left'>
-                <a>Redphantom</a>
+                <img src={logo}></img>
             </div>
             <div className='right'>
                 <a href="">What we do</a>

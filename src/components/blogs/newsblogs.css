@@ -1,5 +1,5 @@
 .news__bg{
-    height: 95vh;
+    height: 50rem;
     background-color:  rgb(88, 173, 230);
     background-image: url('../../assets/e.png'), url('../../assets/think.png');
     background-position: 90% 25%, 0 100%  ;
@@ -32,4 +32,12 @@
 
 .subscribe Button{
     height: 2.5rem;
+}
+@media screen  and (max-width:760px) {
+    .subscribe{
+        margin-top: 2rem;
+        padding-right: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
 }
