@@ -5,7 +5,8 @@
     background-size: 20%;
 }
 .bg__image{
-    height: 90vh;
+    height: 45rem;
+    position: relative;
 }
 
 .bg__image img{
@@ -16,8 +17,8 @@
 .strategy__text{
     color:rgb(88, 173, 230); 
     text-align: center;
-    position: relative;
-    top: -95%; 
+    position: absolute;
+    top:60px;
 }
 
 .gutter-row{

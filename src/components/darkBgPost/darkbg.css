@@ -1,5 +1,5 @@
 .darkBg__main{
-    height: 80vh;
+    height: 50rem;
     background-color: rgb(22, 22, 22);
     background-image: url('../../assets/ee.png'), url('../../assets/think.png');
     background-position: 90% 25%, 0 100%  ;
